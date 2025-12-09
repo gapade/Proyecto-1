@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Sobre Denis — información, formación y objetivos.">
+    <title>Sobre mí — Denis</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+    
+
+    <header class="site-header" role="banner">
+    
+            <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegación principal">
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sobremi.html" aria-current="page" class="active">Sobre mí</a></li>
+                    <li><a href="habilidades.html">Habilidades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <article class="card">
+            <h1>Sobre mí</h1>
+            <p>Soy Denis Yariel García Pacheco, estudiante y adminitrador en formación. Me interesa crear interfaces limpias, accesibles y con coherencia,
+              que faciliten la experiencia del usuario, Nací el 10 de octubre de 2005 y actualmente practico mucho para estar bien preparado en el mundo laboral.</p>
+
+            <section>
+                <h2>Formación</h2>
+                <a>Ciclo superior Administración en sistemas informaticos en red — 2025</a>
+                <ul>
+                    <li>Lenguajes de marcas</li>
+                    <li>Gestión bases de Datos </li>
+                    <li>Implementación de Sistemas Opetarativos</li>
+                    <li>Planificación y administración de Redes</li>
+                </ul>
+            </section>
+
+            <section>
+                <h2>Habilidades principales</h2>
+                <div class="grid cols-2">
+                    <div>
+                        <h3>Direcionamiento IP</h3>
+                         <ul class="lista-habilidades">
+                            <li>Enrrutamiento básico — intermedio</li>
+                            <li>Subredes — intermedio</li>
+                            <li>Redes IPv4 — intermedio</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h3>Otras</h3>
+                        <ul class="lista-habilidades">
+                            <li>Tabajo en equipo — comunicación efectiva</li>
+                            <li>Capacidad para adaptarme a nuevos entornos</li>
+                            <li>Solución de problemas — analisis</li>
+                        </ul>
+                    </div>
+                </div>
+            </section>
+
+            <section>
+                <h2>Proyectos y objetivos</h2>
+                <p>He creado este portafolio para practicar la estructura de un sitio web, navegación y estilos. Mi objetivo es mejorar y tomar soltura para publicar proyectos más completos.</p>
+            </section>
+
+            <section>
+                <h2>Contacto rápido</h2>
+                <p>Si quieres ver mis proyectos o colaborar, usa la página de contacto.</p>
+                <p><a class="btn" href="contacto.html">Ir a Contacto</a> <a class="btn ghost" href="../index.html">Volver al inicio</a></p>
+            </section>
+        </article>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p>&copy; 2025 Denis Yariel Garcia Pacheco — <a href="../index.html">Inicio</a></p>
+        </div>
+    </footer>
+
+    <script>
+    (function(){
+        const btn = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('main-nav');
+        if(!btn || !nav) return;
+        btn.addEventListener('click', ()=>{
+            const opened = nav.classList.toggle('open');
+            btn.setAttribute('aria-expanded', String(opened));
+        });
+    })();
+    </script>
+</body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Portafolio personal — Denis Yariel Garcia Pacheco">
+    <title>Mi Portafolio — Denis</title>
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header class="site-header" role="banner">
+        <div>
+            <nav id="main-nav" class="main-nav" role="navigation" aria-label="Navegación principal">
+                <ul class="nav-menu">
+                    <li><a href="index.html" class="active">Inicio</a></li>
+                    <li><a href="index/sobremi.html">Sobre mí</a></li>
+                    <li><a href="index/habilidades.html">Habilidades</a></li>
+                    <li><a href="index/contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <section class="hero grid">
+            <div class="hero-content">
+                <div class="presentacion">
+                    <h1>Hola, soy Denis.</h1>
+                    <p>Actualmente estoy cursando el grado superior de Administración 
+                        de Sistemas Informáticos en Red (1º ASIR).</p>
+                </div>
+
+            <div class="hero-card card">
+                <h3>Últimos proyectos</h3>
+                <ul>
+                    <li>Portfolio personal — diseño propio</li>
+                    <li>+ añadir proyecto</li>
+                    <li>+ añadir proyecto</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="features">
+            <div class="grid cols-3">
+                <article class="card">
+                    <h4>Sistemas</h4>
+                    <p>Contenidos: Distribución de permisos, uso de la CMD y powershell Gesrtion de archivos.</p>
+                </article>
+                <article class="card">
+                    <h4>Redes</h4>
+                    <p>Contenidos: Manejo de Packet tracer, Direcionamiento IP.</p>
+                </article>
+                <article class="card">
+                    <h4>Bases de datos</h4>
+                    <p>Contenidos: Control del diseño logico (E-R), normalización, contral dfisicoel diseño.</p>
+                </article>
+                <p><a class="btn" href="index/contacto.html">Contáctame</a> <a class="btn ghost" href="index/habilidades.html">Ver habilidades</a></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            
+            <p>&copy; 2025 Denis Yariel Garcia Pacheco — <a href="index/contacto.html">Contactar</a></p>
+        </div>
+    </footer>
+
+    <style>
+        .nav-menu {
+            display: none;
+        }
+        
+        .nav-toggle:checked ~ .nav-menu {
+            display: block;
+        }
+    </style>
+</body>
+</html>

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Listado de habilidades: HTML, CSS, Bootstrap, Git.">
+    <title>Habilidades — Denis</title>
+    <link rel="stylesheet" href="../estilos/style.css">
+</head>
+<body>
+ 
+    <header class="site-header">
+      
+            <nav id="main-nav" class="main-nav">
+                <ul class="nav-menu">
+                    <li><a href="../index.html">Inicio</a></li>
+                    <li><a href="sobremi.html">Sobre mí</a></li>
+                    <li><a href="habilidades.html" aria-current="page">Habilidades</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="container">
+        <section class="card">
+            <h2>Habilidades</h2>
+            <p>Habilidades técnicas y nivel aproximado.</p>
+
+            <div class="grid cols-2 gap">
+                <div>
+                    <h3>Administración</h3>
+                    <ul class="skill-list">
+                        <li><strong>Modelo relacional </strong> — Intermedio/Avanzado.</li>
+                        <li><strong>Enrrutamiento</strong> — Intermedio.</li>
+                        <li><strong>HTML</strong> — Basico.</li>
+                        <li><strong>CSS</strong> — Basico.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Otras</h3>
+                    <ul class="skill-list">
+                        <li><strong>Comunicación</strong>— Fluida.</li>
+                        <li><strong>Solución de problemas</strong> — Versatil.</li>
+                        <li><strong>Trabajuo en Equipo</strong> — Adaptativo.</li>
+                        <li><strong>Gestión del tiempo</strong> — Eficaz.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="container">
+            <p><a href="../index.html">Volver al inicio</a></p>
+        </div>
+    </footer>
+
+    <script>
+    (function(){
+        const btn = document.querySelector('.nav-toggle');
+        const nav = document.getElementById('main-nav');
+        if(btn) btn.addEventListener('click', ()=>{ nav.classList.toggle('open'); btn.setAttribute('aria-expanded', nav.classList.contains('open'))});
+    })();
+    </script>
+</body>
+</html>
