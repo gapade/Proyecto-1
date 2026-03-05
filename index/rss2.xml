@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  <channel>
+    <title>Configurar OSPF</title>
+    <link>https://www.youtube.com/watch?v=XMIWA7w8MdA</link>
+  <description> Trabajos realizado en packet tracer</description>
+  
+      <title>Configurar  RIPv2</title>
+    <link>https://www.youtube.com/watch?v=XMIWA7w8MdA</link>
+  <description> Trabajos realizado en packet tracer</description>
+
+
+    <title>¿Qué es NAT?</title>
+    <link>https://www.youtube.com/watch?v=bKUgPFhyw6c</link>
+  <description> Trabajos realizado en packet tracer</description>
+
+
+    <title>Github</title>
+    <link>https://github.com/gapade</link>
+  <description> Perfil de Gitbup</description>
+
+  </channel>
+</rss>
