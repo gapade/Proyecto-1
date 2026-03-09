@@ -19,5 +19,23 @@
     <link>https://github.com/gapade</link>
   <description> Perfil de Gitbup</description>
 
-  </channel>
+<item>
+<title>sobre mi</title>
+  <link>https://www.gapade.com/index/sobremi.html</link>
+  <description>informacion adicional sobre mi persona.</description>
+</item>
+  
+  <item>
+<title>habilidades</title>
+  <link>https://www.gapade.com/index/habilidades.html</link>
+  <description>habilidades destacable y desempeño en el ciclo 1 ASIR.</description>
+</item>
+
+    <item>
+<title>contacto</title>
+  <link>https://www.gapade.com/index/contacto.html</link>
+  <description>contactame. </description>
+</item>
+</channel>
+
 </rss>
